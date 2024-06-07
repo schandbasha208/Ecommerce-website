@@ -1,0 +1,40 @@
+.descriptionbox {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 80px;
+  
+}
+.descriptionbox-navigation {
+  display: flex;
+}
+.descriptionbox-nav-box {
+  display: flex;
+  align-items: center;
+  background: rgb(228, 219, 219);
+  border: 1px solid rgb(152, 147, 147);
+  color: rgb(19, 19, 19);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 20px;
+  width: 120px;
+  height: 25px;
+  outline: none;
+
+}
+.descriptionbox-nav-box.fade {
+  color: rgb(112, 113, 116);
+  border-left: 2px solid black;
+
+}
+.descriptionbox-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background:  rgb(228, 219, 219);
+  padding: 25px;
+  color: rgb(74, 70, 70);
+  font-size: 12px;
+  border: 1px solid rgb(152, 147, 147);
+  outline: none;
+  
+}
